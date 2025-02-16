@@ -1,0 +1,91 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: #080710;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.wrapper{
+    width: 400px;
+    height: 500px;
+    position: relative;
+}
+.shape{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    position: absolute;
+}
+.shape__one{
+    background-image: linear-gradient(blue,rgb(68, 81, 227));
+    top: -80px;
+    left: -90px;
+}
+.shape__two{
+    background-image: linear-gradient(45deg,red,orange);
+    bottom: -80px;
+    right: -80px;
+}
+.form{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255,255,255,0.13);
+    color: #fff;
+    border-radius: 10px;
+    padding: 50px 35px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.13) ;
+
+}
+.form__title{
+    font-size: 32px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.username__label{
+    display: block;
+    font-size: 16px;
+    
+}
+.username__input{
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(255,255,255,0.07);
+    height: 50px;
+    padding: 0 10px;
+    width: 100%;
+    margin-bottom: 40px;
+    color: #fff;
+}
+.password__label{
+    display: block;
+    font-size: 16px;
+}
+.password__input{
+    font-size: 14px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    outline: none;
+    background-color: rgba(255,255,255,0.07);
+    height: 50px;
+    padding: 0 10px;
+    width: 100%;
+    margin-bottom: 40px;
+    color: #fff;
+    
+}
+.submit__btn{
+    font-size: 18px;
+    padding: 15px 0;
+    width: 100%;
+}
