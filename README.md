@@ -1,2 +1,2 @@
-# my_project2
-This is my Second project on GitHub.
+# my_project
+This is my first project on GitHub.
